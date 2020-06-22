@@ -1,0 +1,44 @@
+@objects
+		username #username
+	 	password xpath //input[@name='password']
+		login_btn xpath //button[text()='Sign in']
+		Forget xpath //a
+		copyright xpath //p[contains(text(),'2004 - 2020')]
+		sw-logo xpath //img
+		Form xpath //form
+= Login =
+	username:
+	    width  340 px
+	    height 43px
+	    above password 10px
+	    css font-size is "16px"
+	    css font-family starts "OpenSans-Regular" 
+	    css font-family ends "sans-serif" 
+	    aligned horizontally bottom password
+	    inside Form 20px left right, 0px top bottom
+	password:
+		above login_btn 20px
+		css font-size is "10px"
+		css font-family starts "OpenSans-Regular" 
+		css font-family ends "sans-serif"
+		aligned horizontally bottom password
+		inside Form 10px left right, 20px top bottom
+	login_btn:
+		below password 20px
+		text is "Sign in"
+		centered all inside login_btn
+		css font-size is "16px" 
+		css font-family starts "OpenSans-Regular" 
+		css font-family ends "sans-serif"
+	Forget:
+		text is "forgot password?"
+		css font-family starts "OpenSans-Regular" 
+		css font-family ends "sans-serif"
+	copyright:
+		text is "Powered by vtiger CRM - 7.2.0 © 2004 - 2020 Vtiger | Privacy Policy"
+		css font-family starts "OpenSans-Regular" 
+		css font-family ends "sans-serif"
+	sw-logo:
+		above username 20px
+		height 110px
+ 

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="50.229" tests="8" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\247_Automation\UIlayout"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\247_Automation\UIlayout"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
+    <property name="classworlds.conf" value="E:\247_Automation\ReactJS.Maven\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_144\bin;E:\247_Automation\ReactJS.Maven\maven\bin;C:\Program Files\nodejs;E:\apache-jmeter-4.0;C:\Users\Admin\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="E:\247_Automation\ReactJS.Maven\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DsuiteXmlFile=testng.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\247_Automation\ReactJS.Maven\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Login" classname="ResponsiveLayout.UserManagerGrid" time="3.54">
+    <failure message="Layout Test Failed :  expected [0] but found [11]" type="java.lang.AssertionError">java.lang.AssertionError: Layout Test Failed :  expected [0] but found [11]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at ResponsiveLayout.UserManagerGrid.Login(UserManagerGrid.java:68)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 29311
+Only local connections are allowed.
+Aug 10, 2018 2:44:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Aug 10, 2018 2:44:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="User" classname="ResponsiveLayout.UserManagerGrid" time="17.721"/>
+  <testcase name="UserGrid" classname="ResponsiveLayout.UserManagerGrid" time="3.443">
+    <failure message="Layout Test Failed :  expected [0] but found [18]" type="java.lang.AssertionError">java.lang.AssertionError: Layout Test Failed :  expected [0] but found [18]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at ResponsiveLayout.UserManagerGrid.UserGrid(UserManagerGrid.java:118)
+</failure>
+  </testcase>
+  <testcase name="Subcription" classname="ResponsiveLayout.UserManagerGrid" time="8.442"/>
+  <testcase name="SubcriptionTierLayout" classname="ResponsiveLayout.UserManagerGrid" time="2.214">
+    <failure message="Layout Test Failed :  expected [0] but found [9]" type="java.lang.AssertionError">java.lang.AssertionError: Layout Test Failed :  expected [0] but found [9]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at ResponsiveLayout.UserManagerGrid.SubcriptionTierLayout(UserManagerGrid.java:155)
+</failure>
+  </testcase>
+  <testcase name="Addsubcription" classname="ResponsiveLayout.UserManagerGrid" time="8.116"/>
+  <testcase name="SubcriptionTierAdd" classname="ResponsiveLayout.UserManagerGrid" time="2.853">
+    <failure message="Layout Test Failed :  expected [0] but found [13]" type="java.lang.AssertionError">java.lang.AssertionError: Layout Test Failed :  expected [0] but found [13]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at ResponsiveLayout.UserManagerGrid.SubcriptionTierAdd(UserManagerGrid.java:192)
+</failure>
+  </testcase>
+  <testcase name="tearDown" classname="ResponsiveLayout.UserManagerGrid" time="3.9">
+    <failure message="C:\Users\Admin\AppData\Local\Temp\jna-63116079\jna4605368299115976616.dll: Access is denied" type="java.lang.UnsatisfiedLinkError"><![CDATA[java.lang.UnsatisfiedLinkError: C:\Users\Admin\AppData\Local\Temp\jna-63116079\jna4605368299115976616.dll: Access is denied
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary0(ClassLoader.java:1941)
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1824)
+	at java.lang.Runtime.load0(Runtime.java:809)
+	at java.lang.System.load(System.java:1086)
+	at com.sun.jna.Native.loadNativeDispatchLibraryFromClasspath(Native.java:761)
+	at com.sun.jna.Native.loadNativeDispatchLibrary(Native.java:736)
+	at com.sun.jna.Native.<clinit>(Native.java:131)
+	at org.openqa.selenium.os.Kernel32.<clinit>(Kernel32.java:34)
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:184)
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
+	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:254)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:208)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:497)
+	at ResponsiveLayout.UserManagerGrid.tearDown(UserManagerGrid.java:199)
+]]></failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 61.122 sec <<< FAILURE! - in TestSuite
+Login(ResponsiveLayout.UserManagerGrid)  Time elapsed: 3.54 sec  <<< FAILURE!
+java.lang.AssertionError: Layout Test Failed :  expected [0] but found [11]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at ResponsiveLayout.UserManagerGrid.Login(UserManagerGrid.java:68)
+
+UserGrid(ResponsiveLayout.UserManagerGrid)  Time elapsed: 3.443 sec  <<< FAILURE!
+java.lang.AssertionError: Layout Test Failed :  expected [0] but found [18]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at ResponsiveLayout.UserManagerGrid.UserGrid(UserManagerGrid.java:118)
+
+SubcriptionTierLayout(ResponsiveLayout.UserManagerGrid)  Time elapsed: 2.214 sec  <<< FAILURE!
+java.lang.AssertionError: Layout Test Failed :  expected [0] but found [9]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at ResponsiveLayout.UserManagerGrid.SubcriptionTierLayout(UserManagerGrid.java:155)
+
+SubcriptionTierAdd(ResponsiveLayout.UserManagerGrid)  Time elapsed: 2.853 sec  <<< FAILURE!
+java.lang.AssertionError: Layout Test Failed :  expected [0] but found [13]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at ResponsiveLayout.UserManagerGrid.SubcriptionTierAdd(UserManagerGrid.java:192)
+
+tearDown(ResponsiveLayout.UserManagerGrid)  Time elapsed: 3.9 sec  <<< FAILURE!
+java.lang.UnsatisfiedLinkError: C:\Users\Admin\AppData\Local\Temp\jna-63116079\jna4605368299115976616.dll: Access is denied
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary0(ClassLoader.java:1941)
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1824)
+	at java.lang.Runtime.load0(Runtime.java:809)
+	at java.lang.System.load(System.java:1086)
+	at com.sun.jna.Native.loadNativeDispatchLibraryFromClasspath(Native.java:761)
+	at com.sun.jna.Native.loadNativeDispatchLibrary(Native.java:736)
+	at com.sun.jna.Native.<clinit>(Native.java:131)
+	at org.openqa.selenium.os.Kernel32.<clinit>(Kernel32.java:34)
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:184)
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
+	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:254)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:208)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:125)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:155)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:497)
+	at ResponsiveLayout.UserManagerGrid.tearDown(UserManagerGrid.java:199)
+

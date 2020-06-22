@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "LOGIN",
+    "startedAt" : 1592297837941,
+    "endedAt" : 1592297837941,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 17,
+      "errors" : 11,
+      "warnings" : 0,
+      "total" : 28
+    },
+    "testId" : "1-login",
+    "duration" : 0,
+    "failed" : true
+  } ]
+}

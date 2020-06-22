@@ -1,0 +1,389 @@
+{
+  "testId" : "1-login",
+  "name" : "LOGIN",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Login Components here",
+      "status" : "error",
+      "time" : 1592297837941,
+      "includedTags" : [ "desktop_GeneralWebelementAttributes" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Login",
+        "place" : {
+          "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+          "lineNumber" : 9
+        },
+        "objects" : [ {
+          "name" : "username",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 11
+            },
+            "name" : "width  340 px",
+            "meta" : [ {
+              "from" : {
+                "object" : "username",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "username",
+                "edge" : "right"
+              },
+              "expectedDistance" : "340px",
+              "realDistance" : "340px"
+            } ],
+            "highlight" : [ "username" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 12
+            },
+            "name" : "height 43px",
+            "meta" : [ {
+              "from" : {
+                "object" : "username",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "username",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "43px",
+              "realDistance" : "43px"
+            } ],
+            "highlight" : [ "username" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 13
+            },
+            "name" : "above password 10px",
+            "errors" : [ "Cannot find locator for \"password\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 14
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "username" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 15
+            },
+            "name" : "css font-family starts \"OpenSans-Regular\"",
+            "highlight" : [ "username" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "css font-family ends \"sans-serif\"",
+            "highlight" : [ "username" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "aligned horizontally bottom password",
+            "errors" : [ "Cannot find locator for \"password\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "inside Form 20px left right, 0px top bottom",
+            "errors" : [ "\"username\" is 198px bottom instead of 0px" ],
+            "meta" : [ {
+              "from" : {
+                "object" : "username",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "Form",
+                "edge" : "left"
+              },
+              "expectedDistance" : "20px",
+              "realDistance" : "20px"
+            }, {
+              "from" : {
+                "object" : "username",
+                "edge" : "right"
+              },
+              "to" : {
+                "object" : "Form",
+                "edge" : "right"
+              },
+              "expectedDistance" : "20px",
+              "realDistance" : "20px"
+            }, {
+              "from" : {
+                "object" : "username",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "Form",
+                "edge" : "top"
+              },
+              "expectedDistance" : "0px",
+              "realDistance" : "0px"
+            }, {
+              "from" : {
+                "object" : "username",
+                "edge" : "bottom"
+              },
+              "to" : {
+                "object" : "Form",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "0px",
+              "realDistance" : "198px"
+            } ],
+            "highlight" : [ "username", "Form" ]
+          } ]
+        }, {
+          "name" : "password",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 20
+            },
+            "name" : "above login_btn 20px",
+            "errors" : [ "Cannot find locator for \"password\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "css font-size is \"10px\"",
+            "errors" : [ "Cannot find locator for \"password\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "css font-family starts \"OpenSans-Regular\"",
+            "errors" : [ "Cannot find locator for \"password\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 23
+            },
+            "name" : "css font-family ends \"sans-serif\"",
+            "errors" : [ "Cannot find locator for \"password\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 24
+            },
+            "name" : "aligned horizontally bottom password",
+            "errors" : [ "Cannot find locator for \"password\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 25
+            },
+            "name" : "inside Form 10px left right, 20px top bottom",
+            "errors" : [ "Cannot find locator for \"password\" in page spec" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "login_btn",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 27
+            },
+            "name" : "below password 20px",
+            "errors" : [ "Cannot find locator for \"password\" in page spec" ],
+            "highlight" : [ ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 28
+            },
+            "name" : "text is \"Sign in\"",
+            "highlight" : [ "login_btn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 29
+            },
+            "name" : "centered all inside login_btn",
+            "highlight" : [ "login_btn", "login_btn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 30
+            },
+            "name" : "css font-size is \"16px\"",
+            "highlight" : [ "login_btn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 31
+            },
+            "name" : "css font-family starts \"OpenSans-Regular\"",
+            "highlight" : [ "login_btn" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "css font-family ends \"sans-serif\"",
+            "highlight" : [ "login_btn" ]
+          } ]
+        }, {
+          "name" : "Forget",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 34
+            },
+            "name" : "text is \"forgot password?\"",
+            "highlight" : [ "Forget" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 35
+            },
+            "name" : "css font-family starts \"OpenSans-Regular\"",
+            "highlight" : [ "Forget" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 36
+            },
+            "name" : "css font-family ends \"sans-serif\"",
+            "highlight" : [ "Forget" ]
+          } ]
+        }, {
+          "name" : "copyright",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "text is \"Powered by vtiger CRM - 7.2.0 © 2004 - 2020 Vtiger | Privacy Policy\"",
+            "errors" : [ "\"copyright\" text is \"Powered by vtiger CRM - 7.2.0  © 2004 - 2020   Vtiger |  Privacy Policy\" but should be \"Powered by vtiger CRM - 7.2.0 © 2004 - 2020 Vtiger | Privacy Policy\"" ],
+            "highlight" : [ "copyright" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 39
+            },
+            "name" : "css font-family starts \"OpenSans-Regular\"",
+            "highlight" : [ "copyright" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 40
+            },
+            "name" : "css font-family ends \"sans-serif\"",
+            "highlight" : [ "copyright" ]
+          } ]
+        }, {
+          "name" : "sw-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 42
+            },
+            "name" : "above username 20px",
+            "meta" : [ {
+              "from" : {
+                "object" : "sw-logo",
+                "edge" : "bottom"
+              },
+              "to" : {
+                "object" : "username",
+                "edge" : "top"
+              },
+              "expectedDistance" : "20px",
+              "realDistance" : "20px"
+            } ],
+            "highlight" : [ "sw-logo", "username" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "E:\\Rest_API_Learning\\UIlayout\\src\\test\\galen_spec_gspec\\VTigerLoginPage.gspec",
+              "lineNumber" : 43
+            },
+            "name" : "height 110px",
+            "meta" : [ {
+              "from" : {
+                "object" : "sw-logo",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "sw-logo",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "110px",
+              "realDistance" : "110px"
+            } ],
+            "highlight" : [ "sw-logo" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "copyright" : {
+          "area" : [ 0, 588, 1366, 25 ]
+        },
+        "Form" : {
+          "area" : [ 103, 231, 380, 241 ]
+        },
+        "Forget" : {
+          "area" : [ 123, 455, 97, 17 ]
+        },
+        "login_btn" : {
+          "area" : [ 123, 402, 340, 38 ]
+        },
+        "sw-logo" : {
+          "area" : [ 185, 101, 216, 110 ]
+        },
+        "username" : {
+          "area" : [ 123, 231, 340, 43 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}
